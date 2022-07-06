@@ -17,10 +17,12 @@ repositories {
 
 dependencies {
 	// Self-added
+	implementation("io.github.g0dkar:qrcode-kotlin-jvm:3.1.0")
 	implementation("io.arrow-kt:arrow-core:1.1.2")
+	implementation("org.springframework.boot:spring-boot-devtools")
 
 	// Spring WebFlux
-	implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
+//	implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
